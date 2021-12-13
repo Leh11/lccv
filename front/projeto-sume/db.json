@@ -1,0 +1,12 @@
+{
+  "Fornecidores": [
+    {
+      "id": 1,
+      "nome": "Camilo"
+    },
+    {
+      "nome": "sample",
+      "id": 2
+    }
+  ]
+}

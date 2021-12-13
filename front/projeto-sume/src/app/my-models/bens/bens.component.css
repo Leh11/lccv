@@ -1,0 +1,17 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.img-logo {
+  width: 4rem;
+  height: 4rem;
+}
+
+.nav.flex-column {
+  height: 100vh;
+  width: 15.5rem;
+  background-color: #142749;
+  padding: 1rem;
+}
+
+.d-flex {
+  padding: .3rem 0;
+}

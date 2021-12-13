@@ -1,0 +1,57 @@
+<nav class="bg-light">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <img src="image/logo.png" class="img-logo" alt="logo">
+      </div>
+      <div class="col">
+        <div class="d-flex flex-row-reverse bd-highlight">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="d-flex">
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+
+              <span>Bens</span>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+
+            <div class="list-group">
+              <!-- <a [routerLink]="['/routePath']" routerLinkActive="router-link-active" ="pages/cadastro.html" class="list-group-item list-group-item-action" aria-current="true">
+                Cadastrar
+              </a> -->
+              <a href="pages/cadastro.html" class="list-group-item list-group-item-action" aria-current="true">
+                Cadastrar
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
